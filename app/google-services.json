@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435877178948",
+    "firebase_url": "https://vasavithangamaligai-7cece.firebaseio.com",
+    "project_id": "vasavithangamaligai-7cece",
+    "storage_bucket": "vasavithangamaligai-7cece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435877178948:android:943f84a6b81cd714",
+        "android_client_info": {
+          "package_name": "com.ultimatereach.vasavithangamaligai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435877178948-51jmgk4llk46fci6lge7oeuo2uhme0vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ultimatereach.vasavithangamaligai",
+            "certificate_hash": "48abae1337a464d591d759ba109e8e5728b613cf"
+          }
+        },
+        {
+          "client_id": "435877178948-bphphg9s0audlgrm9can4c8u7vcfs83i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQpyl9_UMp1UEGLon9uyNORrUn6BGpauE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435877178948-bphphg9s0audlgrm9can4c8u7vcfs83i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

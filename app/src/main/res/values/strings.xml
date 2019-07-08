@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VTM Automation</string>
+    <string name="password">Password</string>
+    <string name="mail_id">Mail ID</string>
+    <string name="login">Login</string>
+    <string name="ultimate_login">Ultimate Login</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="ultimate_reach_office_automation">My Dasboard</string>
+    <string name="reception">Test 1</string>
+    <string name="work_area">Test 2</string>
+    <string name="all_rooms">Test All</string>
+    <string name="conference">Test 3</string>
+    <string name="ceo_room">CEO Room</string>
+    <string name="cfo_room">CFO Room</string>
+    <string name="logs">Logs</string>
+    <string name="powered_by_ultimate_reach_pvt">Powered by Ultimate Reach Pvt Ltd</string>
+</resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Dashboard">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/dash_bar" />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="343dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="@string/ultimate_reach_office_automation"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="366dp"
+        android:layout_height="413dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.771"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="353dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round_corner"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp">
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="45sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="17sp"
+                    android:paddingStart="20sp"
+                    android:paddingLeft="20sp"
+                    android:text="@string/all_rooms"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/all"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/switch_button"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_power_settings_new_black_24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round_corner"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp">
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="45sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="17sp"
+                    android:paddingStart="20sp"
+                    android:paddingLeft="20sp"
+                    android:text="@string/reception"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/one"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/switch_button"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_power_settings_new_black_24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/round_corner"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp">
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="45sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="17sp"
+                    android:paddingStart="20sp"
+                    android:paddingLeft="20sp"
+                    android:text="@string/work_area"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/switch_button"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_power_settings_new_black_24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="340dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="70sp"
+                android:background="@drawable/round_corner"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp">
+
+                <TextView
+                    android:layout_width="250sp"
+                    android:layout_height="45sp"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="17sp"
+                    android:paddingStart="20sp"
+                    android:paddingLeft="20sp"
+                    android:text="@string/conference"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/three"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/switch_button"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_power_settings_new_black_24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
